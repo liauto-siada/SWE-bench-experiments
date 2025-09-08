@@ -1,0 +1,1365 @@
+[0;32m开始从 ops2 获取文件...[0m
+[1;33m获取远程目录列表...[0m
+[0;32m找到以下子目录：[0m
+  - django__django-10914
+  - django__django-10924
+  - django__django-11001
+  - django__django-11019
+  - django__django-11039
+  - django__django-11049
+  - django__django-11099
+  - django__django-11133
+  - django__django-11179
+  - django__django-11283
+  - django__django-11422
+  - django__django-11564
+  - django__django-11583
+  - django__django-11620
+  - django__django-11630
+  - django__django-11742
+  - django__django-11797
+  - django__django-11815
+  - django__django-11848
+  - django__django-11905
+  - django__django-11910
+  - django__django-11964
+  - django__django-11999
+  - django__django-12113
+  - django__django-12125
+  - django__django-12184
+  - django__django-12284
+  - django__django-12286
+  - django__django-12308
+  - django__django-12453
+  - django__django-12470
+  - django__django-12497
+  - django__django-12589
+  - django__django-12700
+  - django__django-12708
+  - django__django-12747
+  - django__django-12856
+  - django__django-12908
+  - django__django-12915
+  - django__django-12983
+  - django__django-13028
+  - django__django-13033
+  - django__django-13158
+  - django__django-13220
+  - django__django-13230
+  - django__django-13265
+  - django__django-13315
+  - django__django-13321
+  - django__django-13401
+  - django__django-13447
+  - django__django-13448
+  - django__django-13551
+  - django__django-13590
+  - django__django-13658
+  - django__django-13660
+  - django__django-13710
+  - django__django-13757
+  - django__django-13768
+  - django__django-13925
+  - django__django-13933
+  - django__django-13964
+  - django__django-14016
+  - django__django-14017
+  - django__django-14155
+  - django__django-14238
+  - django__django-14382
+  - django__django-14411
+  - django__django-14534
+  - django__django-14580
+  - django__django-14608
+  - django__django-14667
+  - django__django-14672
+  - django__django-14730
+  - django__django-14752
+  - django__django-14787
+  - django__django-14855
+  - django__django-14915
+  - django__django-14997
+  - django__django-14999
+  - django__django-15061
+  - django__django-15202
+  - django__django-15213
+  - django__django-15252
+  - django__django-15320
+  - django__django-15347
+  - django__django-15388
+  - django__django-15400
+  - django__django-15498
+  - django__django-15695
+  - django__django-15738
+  - django__django-15781
+  - django__django-15789
+  - django__django-15790
+  - django__django-15814
+  - django__django-15819
+  - django__django-15851
+  - django__django-15902
+  - django__django-15996
+  - django__django-16041
+  - django__django-16046
+  - django__django-16139
+  - django__django-16229
+  - django__django-16255
+  - django__django-16379
+  - django__django-16400
+  - django__django-16408
+  - django__django-16527
+  - django__django-16595
+  - django__django-16816
+  - django__django-16820
+  - django__django-16873
+  - django__django-16910
+  - django__django-17051
+  - django__django-17087
+  - tmp.txt
+
+[0;32m使用批量rsync获取所有文件...[0m
+[1;33m创建的包含文件列表包含      345 个文件路径[0m
+[1;33m开始批量同步...[0m
+Transfer starting: 457 files
+./
+
+sent 13453 bytes  received 9796 bytes  232490000 bytes/sec
+total size is 5492049  speedup is 236.23
+[0;32m✓ 批量同步完成[0m
+
+[0;32m开始获取轨迹文件...[0m
+[1;33m创建的轨迹文件列表包含      115 个文件路径[0m
+[1;33m开始批量同步轨迹文件...[0m
+Transfer starting: 229 files
+./
+django__django-10914/
+django__django-10914/trace_test.json
+        8322645  93%   15.79MB/s   00:00:00        8971939 100%   16.21MB/s   00:00:00 (xfer#1, to-check=2/229)
+django__django-10924/
+django__django-10924/trace_test.json
+        8068140  40%   15.37MB/s   00:00:00       17727329  87%   18.30MB/s   00:00:00       20354868 100%   17.34MB/s   00:00:01 (xfer#2, to-check=4/229)
+django__django-11001/
+django__django-11001/trace_test.json
+        2885481 100%   17.25MB/s   00:00:00 (xfer#3, to-check=6/229)
+django__django-11019/
+django__django-11019/trace_test.json
+       12380570  90%   23.10MB/s   00:00:00       13816075 100%   23.83MB/s   00:00:00 (xfer#4, to-check=8/229)
+django__django-11039/
+django__django-11039/trace_test.json
+        7280428 100%   21.01MB/s   00:00:00 (xfer#5, to-check=10/229)
+django__django-11049/
+django__django-11049/trace_test.json
+        3482605 100%   19.96MB/s   00:00:00 (xfer#6, to-check=12/229)
+django__django-11099/
+django__django-11099/trace_test.json
+        4384296 100%   19.68MB/s   00:00:00 (xfer#7, to-check=14/229)
+django__django-11133/
+django__django-11133/trace_test.json
+        5093434 100%   17.46MB/s   00:00:00 (xfer#8, to-check=16/229)
+django__django-11179/
+django__django-11179/trace_test.json
+        7723383 100%   22.14MB/s   00:00:00 (xfer#9, to-check=18/229)
+django__django-11283/
+django__django-11283/trace_test.json
+       10820097  72%   19.74MB/s   00:00:00       14943498 100%   19.27MB/s   00:00:00 (xfer#10, to-check=20/229)
+django__django-11422/
+django__django-11422/trace_test.json
+        4246633 100%   11.52MB/s   00:00:00 (xfer#11, to-check=22/229)
+django__django-11564/
+django__django-11564/trace_test.json
+        5630576  18%    9.59MB/s   00:00:02       11530744  36%   11.12MB/s   00:00:01       21194537  66%   18.42MB/s   00:00:00       31965126 100%   14.94MB/s   00:00:02 (xfer#12, to-check=24/229)
+django__django-11583/
+django__django-11583/trace_test.json
+        4599051 100%   23.30MB/s   00:00:00 (xfer#13, to-check=26/229)
+django__django-11620/
+django__django-11620/trace_test.json
+       10885349  60%   20.62MB/s   00:00:00       18196070 100%   20.43MB/s   00:00:00 (xfer#14, to-check=28/229)
+django__django-11630/
+django__django-11630/trace_test.json
+        6105356 100%   23.45MB/s   00:00:00 (xfer#15, to-check=30/229)
+django__django-11742/
+django__django-11742/trace_test.json
+        6036475  62%   11.34MB/s   00:00:00        9771185 100%   16.48MB/s   00:00:00 (xfer#16, to-check=32/229)
+django__django-11797/
+django__django-11797/trace_test.json
+       12513537  51%   23.61MB/s   00:00:00       20707262  85%   13.34MB/s   00:00:00       24357521 100%   14.85MB/s   00:00:01 (xfer#17, to-check=34/229)
+django__django-11815/
+django__django-11815/trace_test.json
+        5640151 100%   18.64MB/s   00:00:00 (xfer#18, to-check=36/229)
+django__django-11848/
+django__django-11848/trace_test.json
+        6528493 100%   21.74MB/s   00:00:00 (xfer#19, to-check=38/229)
+django__django-11905/
+django__django-11905/trace_test.json
+       11566843  48%   21.87MB/s   00:00:00       22794141  95%   21.37MB/s   00:00:00       24102643 100%   21.60MB/s   00:00:01 (xfer#20, to-check=40/229)
+django__django-11910/
+django__django-11910/trace_test.json
+        8921518 100%   23.75MB/s   00:00:00 (xfer#21, to-check=42/229)
+django__django-11964/
+django__django-11964/trace_test.json
+       10698637  35%   19.97MB/s   00:00:00       20797046  69%   19.19MB/s   00:00:00       30335177 100%   20.42MB/s   00:00:01 (xfer#22, to-check=44/229)
+django__django-11999/
+django__django-11999/trace_test.json
+        6480467 100%   18.92MB/s   00:00:00 (xfer#23, to-check=46/229)
+django__django-12113/
+django__django-12113/trace_test.json
+       13666502  65%   25.55MB/s   00:00:00       20969852 100%   25.77MB/s   00:00:00 (xfer#24, to-check=48/229)
+django__django-12125/
+django__django-12125/trace_test.json
+        9029720 100%   21.32MB/s   00:00:00 (xfer#25, to-check=50/229)
+django__django-12184/
+django__django-12184/trace_test.json
+        5545810 100%   22.60MB/s   00:00:00 (xfer#26, to-check=52/229)
+django__django-12284/
+django__django-12284/trace_test.json
+        6310879 100%   20.29MB/s   00:00:00 (xfer#27, to-check=54/229)
+django__django-12286/
+django__django-12286/trace_test.json
+        5055511 100%   23.45MB/s   00:00:00 (xfer#28, to-check=56/229)
+django__django-12308/
+django__django-12308/trace_test.json
+        4978702 100%   18.82MB/s   00:00:00 (xfer#29, to-check=58/229)
+django__django-12453/
+django__django-12453/trace_test.json
+        5170064 100%   21.51MB/s   00:00:00 (xfer#30, to-check=60/229)
+django__django-12470/
+django__django-12470/trace_test.json
+       10765134  52%   20.20MB/s   00:00:00       20717472 100%   21.42MB/s   00:00:00 (xfer#31, to-check=62/229)
+django__django-12497/
+django__django-12497/trace_test.json
+        4458365 100%   25.64MB/s   00:00:00 (xfer#32, to-check=64/229)
+django__django-12589/
+django__django-12589/trace_test.json
+       12115342 100%   23.22MB/s   00:00:00 (xfer#33, to-check=66/229)
+django__django-12700/
+django__django-12700/trace_test.json
+        9454069 100%   21.31MB/s   00:00:00 (xfer#34, to-check=68/229)
+django__django-12708/
+django__django-12708/trace_test.json
+       10777367  86%   20.52MB/s   00:00:00       12542699 100%   20.97MB/s   00:00:00 (xfer#35, to-check=70/229)
+django__django-12747/
+django__django-12747/trace_test.json
+       10599128  69%   20.13MB/s   00:00:00       15303844 100%   19.62MB/s   00:00:00 (xfer#36, to-check=72/229)
+django__django-12856/
+django__django-12856/trace_test.json
+        9671128  53%   18.40MB/s   00:00:00       18211536 100%   19.88MB/s   00:00:00 (xfer#37, to-check=74/229)
+django__django-12908/
+django__django-12908/trace_test.json
+        3868712 100%   22.06MB/s   00:00:00 (xfer#38, to-check=76/229)
+django__django-12915/
+django__django-12915/trace_test.json
+        7130318  83%   13.32MB/s   00:00:00        8599155 100%   13.75MB/s   00:00:00 (xfer#39, to-check=78/229)
+django__django-12983/
+django__django-12983/trace_test.json
+        3150416 100%   15.83MB/s   00:00:00 (xfer#40, to-check=80/229)
+django__django-13028/
+django__django-13028/trace_test.json
+        3225438 100%   17.92MB/s   00:00:00 (xfer#41, to-check=82/229)
+django__django-13033/
+django__django-13033/trace_test.json
+       10921626  64%   20.64MB/s   00:00:00       17088988 100%   18.50MB/s   00:00:00 (xfer#42, to-check=84/229)
+django__django-13158/
+django__django-13158/trace_test.json
+        6371407 100%   23.02MB/s   00:00:00 (xfer#43, to-check=86/229)
+django__django-13220/
+django__django-13220/trace_test.json
+        5321894 100%   25.82MB/s   00:00:00 (xfer#44, to-check=88/229)
+django__django-13230/
+django__django-13230/trace_test.json
+        6600831 100%   21.06MB/s   00:00:00 (xfer#45, to-check=90/229)
+django__django-13265/
+django__django-13265/trace_test.json
+       12054271  32%   22.94MB/s   00:00:01       26040556  69%   26.32MB/s   00:00:00       37556877 100%   24.00MB/s   00:00:01 (xfer#46, to-check=92/229)
+django__django-13315/
+django__django-13315/trace_test.json
+        8404244 100%   19.03MB/s   00:00:00 (xfer#47, to-check=94/229)
+django__django-13321/
+django__django-13321/trace_test.json
+        4383568 100%   18.44MB/s   00:00:00 (xfer#48, to-check=96/229)
+django__django-13401/
+django__django-13401/trace_test.json
+        6290078 100%   19.21MB/s   00:00:00 (xfer#49, to-check=98/229)
+django__django-13447/
+django__django-13447/trace_test.json
+        6517704 100%   23.50MB/s   00:00:00 (xfer#50, to-check=100/229)
+django__django-13448/
+django__django-13448/trace_test.json
+        9643484  97%   18.26MB/s   00:00:00        9934632 100%   18.45MB/s   00:00:00 (xfer#51, to-check=102/229)
+django__django-13551/
+django__django-13551/trace_test.json
+        8225655 100%   23.11MB/s   00:00:00 (xfer#52, to-check=104/229)
+django__django-13590/
+django__django-13590/trace_test.json
+        3548476 100%   24.33MB/s   00:00:00 (xfer#53, to-check=106/229)
+django__django-13658/
+django__django-13658/trace_test.json
+        5254071 100%   20.95MB/s   00:00:00 (xfer#54, to-check=108/229)
+django__django-13660/
+django__django-13660/trace_test.json
+        1744391 100%   23.02MB/s   00:00:00 (xfer#55, to-check=110/229)
+django__django-13710/
+django__django-13710/trace_test.json
+       10872850  57%   20.63MB/s   00:00:00       19090952 100%   18.76MB/s   00:00:00 (xfer#56, to-check=112/229)
+django__django-13757/
+django__django-13757/trace_test.json
+        6947257 100%   24.24MB/s   00:00:00 (xfer#57, to-check=114/229)
+django__django-13768/
+django__django-13768/trace_test.json
+        5642019 100%   17.50MB/s   00:00:00 (xfer#58, to-check=116/229)
+django__django-13925/
+django__django-13925/trace_test.json
+        9541862  63%   18.17MB/s   00:00:00       15220242 100%   19.30MB/s   00:00:00 (xfer#59, to-check=118/229)
+django__django-13933/
+django__django-13933/trace_test.json
+        6532775 100%   21.45MB/s   00:00:00 (xfer#60, to-check=120/229)
+django__django-13964/
+django__django-13964/trace_test.json
+       12466642  71%   23.64MB/s   00:00:00       17501180 100%   22.77MB/s   00:00:00 (xfer#61, to-check=122/229)
+django__django-14016/
+django__django-14016/trace_test.json
+        4172478 100%   21.03MB/s   00:00:00 (xfer#62, to-check=124/229)
+django__django-14017/
+django__django-14017/trace_test.json
+        9065271 100%   20.48MB/s   00:00:00 (xfer#63, to-check=126/229)
+django__django-14155/
+django__django-14155/trace_test.json
+        5744404 100%   17.59MB/s   00:00:00 (xfer#64, to-check=128/229)
+django__django-14238/
+django__django-14238/trace_test.json
+        4466389 100%   20.43MB/s   00:00:00 (xfer#65, to-check=130/229)
+django__django-14382/
+django__django-14382/trace_test.json
+        6329398 100%   19.58MB/s   00:00:00 (xfer#66, to-check=132/229)
+django__django-14411/
+django__django-14411/trace_test.json
+        5437936 100%   19.09MB/s   00:00:00 (xfer#67, to-check=134/229)
+django__django-14534/
+django__django-14534/trace_test.json
+        4240664 100%   21.03MB/s   00:00:00 (xfer#68, to-check=136/229)
+django__django-14580/
+django__django-14580/trace_test.json
+        8636766 100%   19.74MB/s   00:00:00 (xfer#69, to-check=138/229)
+django__django-14608/
+django__django-14608/trace_test.json
+        9618800  86%   18.30MB/s   00:00:00       11147981 100%   18.37MB/s   00:00:00 (xfer#70, to-check=140/229)
+django__django-14667/
+django__django-14667/trace_test.json
+        7325470 100%   21.41MB/s   00:00:00 (xfer#71, to-check=142/229)
+django__django-14672/
+django__django-14672/trace_test.json
+        3018875 100%   21.04MB/s   00:00:00 (xfer#72, to-check=144/229)
+django__django-14730/
+django__django-14730/trace_test.json
+       12787032  93%   24.17MB/s   00:00:00       13725784 100%   24.22MB/s   00:00:00 (xfer#73, to-check=146/229)
+django__django-14752/
+django__django-14752/trace_test.json
+        7160136 100%   25.17MB/s   00:00:00 (xfer#74, to-check=148/229)
+django__django-14787/
+django__django-14787/trace_test.json
+        3637121 100%   20.25MB/s   00:00:00 (xfer#75, to-check=150/229)
+django__django-14855/
+django__django-14855/trace_test.json
+       11225707  74%   21.20MB/s   00:00:00       15083970 100%   21.19MB/s   00:00:00 (xfer#76, to-check=152/229)
+django__django-14915/
+django__django-14915/trace_test.json
+        3895155 100%   19.98MB/s   00:00:00 (xfer#77, to-check=154/229)
+django__django-14997/
+django__django-14997/trace_test.json
+       11933041  52%   22.64MB/s   00:00:00       23140334 100%   23.75MB/s   00:00:00 (xfer#78, to-check=156/229)
+django__django-14999/
+django__django-14999/trace_test.json
+        7863852 100%   24.52MB/s   00:00:00 (xfer#79, to-check=158/229)
+django__django-15061/
+django__django-15061/trace_test.json
+        6552363 100%   21.99MB/s   00:00:00 (xfer#80, to-check=160/229)
+django__django-15202/
+django__django-15202/trace_test.json
+        4533749 100%   23.04MB/s   00:00:00 (xfer#81, to-check=162/229)
+django__django-15213/
+django__django-15213/trace_test.json
+       10137072  67%   19.27MB/s   00:00:00       15039783 100%   19.59MB/s   00:00:00 (xfer#82, to-check=164/229)
+django__django-15252/
+django__django-15252/trace_test.json
+        7072636 100%   26.25MB/s   00:00:00 (xfer#83, to-check=166/229)
+django__django-15320/
+django__django-15320/trace_test.json
+        4236527 100%   22.75MB/s   00:00:00 (xfer#84, to-check=168/229)
+django__django-15347/
+django__django-15347/trace_test.json
+        4228974 100%   20.71MB/s   00:00:00 (xfer#85, to-check=170/229)
+django__django-15388/
+django__django-15388/trace_test.json
+        9818090  66%   18.66MB/s   00:00:00       14854592 100%   19.27MB/s   00:00:00 (xfer#86, to-check=172/229)
+django__django-15400/
+django__django-15400/trace_test.json
+        2749814 100%   21.99MB/s   00:00:00 (xfer#87, to-check=174/229)
+django__django-15498/
+django__django-15498/trace_test.json
+        9998725  66%   19.05MB/s   00:00:00       15090410 100%   18.99MB/s   00:00:00 (xfer#88, to-check=176/229)
+django__django-15695/
+django__django-15695/trace_test.json
+       12231214  58%   23.21MB/s   00:00:00       21020851 100%   24.75MB/s   00:00:00 (xfer#89, to-check=178/229)
+django__django-15738/
+django__django-15738/trace_test.json
+       11573821  35%   21.94MB/s   00:00:00       24594143  74%   24.69MB/s   00:00:00       33365315 100%   23.88MB/s   00:00:01 (xfer#90, to-check=180/229)
+django__django-15781/
+django__django-15781/trace_test.json
+        5850951 100%   20.81MB/s   00:00:00 (xfer#91, to-check=182/229)
+django__django-15789/
+django__django-15789/trace_test.json
+        7852776 100%   18.27MB/s   00:00:00 (xfer#92, to-check=184/229)
+django__django-15790/
+django__django-15790/trace_test.json
+        3186116 100%   24.12MB/s   00:00:00 (xfer#93, to-check=186/229)
+django__django-15814/
+django__django-15814/trace_test.json
+        5697035 100%   22.49MB/s   00:00:00 (xfer#94, to-check=188/229)
+django__django-15819/
+django__django-15819/trace_test.json
+       12076584  54%   23.02MB/s   00:00:00       22476229 100%   22.90MB/s   00:00:00 (xfer#95, to-check=190/229)
+django__django-15851/
+django__django-15851/trace_test.json
+        2234919 100%   21.21MB/s   00:00:00 (xfer#96, to-check=192/229)
+django__django-15902/
+django__django-15902/trace_test.json
+        6955797 100%   20.12MB/s   00:00:00 (xfer#97, to-check=194/229)
+django__django-15996/
+django__django-15996/trace_test.json
+        7688851 100%   21.18MB/s   00:00:00 (xfer#98, to-check=196/229)
+django__django-16041/
+django__django-16041/trace_test.json
+        5681209 100%   24.22MB/s   00:00:00 (xfer#99, to-check=198/229)
+django__django-16046/
+django__django-16046/trace_test.json
+        2488363 100%   20.10MB/s   00:00:00 (xfer#100, to-check=200/229)
+django__django-16139/
+django__django-16139/trace_test.json
+        7337014 100%   21.23MB/s   00:00:00 (xfer#101, to-check=202/229)
+django__django-16229/
+django__django-16229/trace_test.json
+       10244913  36%   19.41MB/s   00:00:00       22071727  76%   22.56MB/s   00:00:00       28853838 100%   21.37MB/s   00:00:01 (xfer#102, to-check=204/229)
+django__django-16255/
+django__django-16255/trace_test.json
+        3636090 100%   20.46MB/s   00:00:00 (xfer#103, to-check=206/229)
+django__django-16379/
+django__django-16379/trace_test.json
+        4025625 100%   24.32MB/s   00:00:00 (xfer#104, to-check=208/229)
+django__django-16400/
+django__django-16400/trace_test.json
+        9838362 100%   20.69MB/s   00:00:00 (xfer#105, to-check=210/229)
+django__django-16408/
+django__django-16408/trace_test.json
+       11316011  56%   21.58MB/s   00:00:00       20334565 100%   22.63MB/s   00:00:00 (xfer#106, to-check=212/229)
+django__django-16527/
+django__django-16527/trace_test.json
+        7059367 100%   26.01MB/s   00:00:00 (xfer#107, to-check=214/229)
+django__django-16595/
+django__django-16595/trace_test.json
+        4555961 100%   23.61MB/s   00:00:00 (xfer#108, to-check=216/229)
+django__django-16816/
+django__django-16816/trace_test.json
+       11887428  46%   22.25MB/s   00:00:00       23944319  92%   22.96MB/s   00:00:00       26031867 100%   22.93MB/s   00:00:01 (xfer#109, to-check=218/229)
+django__django-16820/
+django__django-16820/trace_test.json
+       12421414  60%   23.63MB/s   00:00:00       20774559 100%   23.21MB/s   00:00:00 (xfer#110, to-check=220/229)
+django__django-16873/
+django__django-16873/trace_test.json
+        2720302 100%   24.82MB/s   00:00:00 (xfer#111, to-check=222/229)
+django__django-16910/
+django__django-16910/trace_test.json
+        9908579 100%   24.31MB/s   00:00:00 (xfer#112, to-check=224/229)
+django__django-17051/
+django__django-17051/trace_test.json
+       10388726  57%   19.74MB/s   00:00:00       18209275 100%   20.73MB/s   00:00:00 (xfer#113, to-check=226/229)
+django__django-17087/
+django__django-17087/trace_test.json
+        8774076 100%   24.76MB/s   00:00:00 (xfer#114, to-check=228/229)
+
+sent 8046 bytes  received 237611448 bytes  2376194940000 bytes/sec
+total size is 1152078949  speedup is 4.85
+[0;32m✓ 轨迹文件批量同步完成[0m
+[1;33m重命名轨迹文件...[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-10914.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-10924.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11001.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11019.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11039.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11049.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11099.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11133.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11179.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11283.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11422.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11564.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11583.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11620.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11630.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11742.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11797.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11815.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11848.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11905.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11910.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11964.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-11999.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12113.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12125.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12184.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12284.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12286.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12308.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12453.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12470.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12497.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12589.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12700.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12708.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12747.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12856.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12908.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12915.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-12983.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13028.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13033.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13158.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13220.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13230.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13265.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13315.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13321.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13401.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13447.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13448.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13551.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13590.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13658.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13660.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13710.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13757.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13768.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13925.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13933.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-13964.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14016.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14017.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14155.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14238.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14382.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14411.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14534.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14580.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14608.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14667.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14672.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14730.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14752.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14787.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14855.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14915.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14997.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-14999.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15061.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15202.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15213.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15252.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15320.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15347.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15388.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15400.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15498.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15695.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15738.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15781.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15789.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15790.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15814.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15819.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15851.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15902.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-15996.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16041.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16046.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16139.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16229.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16255.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16379.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16400.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16408.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16527.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16595.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16816.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16820.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16873.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-16910.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-17051.traj[0m
+  [0;32m✓ 重命名: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/trace_test.json -> django__django-17087.traj[0m
+[0;32m成功重命名 114 个轨迹文件[0m
+[0;32m========== 获取完成 ==========[0m
+处理的目录数:      191/     115
+获取的文件数:      567/345
+轨迹目录数:        0/     115
+轨迹文件数:      189/115
+本地存储路径: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs
+轨迹存储路径: /Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs
+
+[0;32m获取到的评估文件结构:[0m
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10914/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10914/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10914/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10924/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10924/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-10924/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11001/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11001/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11001/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11019/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11019/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11019/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11039/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11039/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11039/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11049/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11049/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11049/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11099/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11099/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11099/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11133/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11133/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11133/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11179/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11179/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11179/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11283/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11283/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11283/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11422/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11422/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11422/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11564/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11564/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11564/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11583/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11583/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11583/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11620/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11620/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11620/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11630/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11630/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11630/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11742/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11742/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11742/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11797/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11797/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11797/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11815/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11815/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11815/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11848/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11848/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11848/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11905/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11905/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11905/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11910/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11910/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11910/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11964/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11964/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11964/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11999/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11999/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-11999/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12113/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12113/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12113/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12125/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12125/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12125/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12184/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12184/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12184/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12284/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12284/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12284/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12286/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12286/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12286/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12308/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12308/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12308/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12453/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12453/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12453/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12470/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12470/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12470/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12497/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12497/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12497/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12589/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12589/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12589/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12700/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12700/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12700/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12708/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12708/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12708/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12747/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12747/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12747/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12856/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12856/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12856/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12908/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12908/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12908/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12915/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12915/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12915/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12983/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12983/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-12983/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13028/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13028/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13028/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13033/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13033/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13033/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13158/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13158/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13158/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13220/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13220/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13220/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13230/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13230/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13230/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13265/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13265/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13265/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13315/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13315/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13315/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13321/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13321/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13321/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13401/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13401/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13401/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13447/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13447/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13447/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13448/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13448/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13448/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13551/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13551/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13551/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13590/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13590/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13590/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13658/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13658/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13658/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13660/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13660/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13660/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13710/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13710/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13710/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13757/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13757/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13757/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13768/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13768/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13768/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13925/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13925/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13925/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13933/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13933/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13933/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13964/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13964/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-13964/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14016/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14016/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14016/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14017/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14017/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14017/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14155/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14155/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14155/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14238/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14238/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14238/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14382/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14382/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14382/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14411/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14411/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14411/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14534/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14534/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14534/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14580/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14580/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14580/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14608/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14608/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14608/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14667/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14667/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14667/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14672/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14672/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14672/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14730/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14730/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14730/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14752/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14752/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14752/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14787/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14787/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14787/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14855/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14855/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14855/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14915/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14915/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14915/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14997/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14997/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14997/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14999/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14999/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-14999/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15061/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15061/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15061/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15202/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15202/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15202/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15213/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15213/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15213/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15252/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15252/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15252/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15320/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15320/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15320/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15347/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15347/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15347/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15388/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15388/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15388/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15400/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15400/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15400/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15498/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15498/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15498/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15695/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15695/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15695/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15738/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15738/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15738/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15781/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15781/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15781/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15789/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15789/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15789/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15790/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15790/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15790/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15814/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15814/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15814/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15819/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15819/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15819/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15851/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15851/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15851/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15902/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15902/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15902/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15996/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15996/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-15996/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16041/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16041/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16041/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16046/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16046/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16046/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16139/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16139/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16139/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16229/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16229/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16229/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16255/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16255/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16255/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16379/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16379/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16379/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16400/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16400/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16400/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16408/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16408/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16408/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16527/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16527/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16527/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16595/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16595/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16595/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16816/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16816/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16816/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16820/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16820/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16820/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16873/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16873/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16873/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16910/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16910/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-16910/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17051/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17051/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17051/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17087/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17087/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/django__django-17087/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11400/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11400/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11400/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11870/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11870/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11870/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11897/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11897/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-11897/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12171/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12171/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12171/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12236/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12236/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12236/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12419/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12419/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12419/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12454/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12454/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12454/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12481/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12481/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-12481/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13031/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13031/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13031/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13043/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13043/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13043/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13146/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13146/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13146/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13177/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13177/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13177/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13437/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13437/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13437/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13471/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13471/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13471/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13480/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13480/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13480/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13647/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13647/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13647/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13773/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13773/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13773/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13895/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13895/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13895/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13915/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13915/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13915/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13971/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13971/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-13971/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14308/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14308/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14308/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14317/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14317/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14317/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14396/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14396/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14396/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14774/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14774/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14774/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14817/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14817/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-14817/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15011/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15011/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15011/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15308/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15308/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15308/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15345/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15345/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15345/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15346/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15346/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15346/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15609/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15609/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15609/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15678/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15678/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-15678/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16106/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16106/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16106/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16281/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16281/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16281/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16503/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16503/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16503/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16792/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16792/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16792/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16988/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16988/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-16988/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17022/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17022/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17022/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17139/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17139/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17139/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17630/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17630/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17630/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17655/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17655/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-17655/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18057/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18057/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18057/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18087/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18087/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18087/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18189/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18189/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18189/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18199/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18199/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18199/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18532/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18532/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18532/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18621/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18621/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18621/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18698/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18698/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18698/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18835/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18835/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-18835/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19007/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19007/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19007/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19254/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19254/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19254/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19487/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19487/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-19487/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20049/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20049/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20049/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20154/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20154/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20154/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20212/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20212/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20212/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20322/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20322/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20322/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20442/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20442/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20442/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20590/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20590/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20590/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20639/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20639/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-20639/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21055/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21055/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21055/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21171/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21171/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21171/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21612/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21612/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21612/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21614/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21614/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21614/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21627/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21627/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21627/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21847/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21847/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-21847/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22005/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22005/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22005/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22714/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22714/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22714/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22840/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22840/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-22840/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23117/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23117/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23117/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23191/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23191/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23191/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23262/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23262/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-23262/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24066/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24066/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24066/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24102/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24102/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24102/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24152/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24152/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24152/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24213/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24213/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24213/test_output.txt
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24909/patch.diff
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24909/report.json
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/logs/sympy__sympy-24909/test_output.txt
+
+[0;32m获取到的轨迹文件结构:[0m
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-10914.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-10924.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11001.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11019.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11039.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11049.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11099.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11133.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11179.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11283.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11422.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11564.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11583.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11620.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11630.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11742.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11797.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11815.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11848.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11905.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11910.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11964.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-11999.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12113.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12125.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12184.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12284.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12286.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12308.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12453.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12470.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12497.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12589.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12700.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12708.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12747.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12856.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12908.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12915.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-12983.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13028.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13033.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13158.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13220.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13230.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13265.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13315.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13321.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13401.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13447.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13448.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13551.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13590.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13658.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13660.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13710.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13757.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13768.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13925.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13933.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-13964.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14016.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14017.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14155.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14238.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14382.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14411.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14534.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14580.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14608.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14667.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14672.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14730.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14752.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14787.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14855.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14915.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14997.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-14999.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15061.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15202.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15213.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15252.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15320.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15347.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15388.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15400.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15498.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15695.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15738.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15781.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15789.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15790.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15814.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15819.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15851.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15902.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-15996.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16041.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16046.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16139.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16229.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16255.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16379.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16400.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16408.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16527.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16595.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16816.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16820.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16873.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-16910.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-17051.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/django__django-17087.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-11400.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-11870.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-11897.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-12171.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-12236.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-12419.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-12454.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-12481.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13031.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13043.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13146.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13177.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13437.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13471.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13480.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13647.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13773.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13895.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13915.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-13971.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-14308.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-14317.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-14396.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-14774.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-14817.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15011.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15308.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15345.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15346.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15609.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-15678.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-16106.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-16281.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-16503.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-16792.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-16988.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-17022.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-17139.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-17630.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-17655.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18057.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18087.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18189.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18199.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18532.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18621.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18698.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-18835.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-19007.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-19254.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-19487.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20049.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20154.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20212.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20322.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20442.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20590.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-20639.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21055.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21171.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21612.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21614.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21627.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-21847.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-22005.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-22714.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-22840.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-23117.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-23191.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-23262.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-24066.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-24102.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-24152.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-24213.traj
+/Users/caoxin/Projects/submit/SWE-bench-experiments/evaluation/lite/20250903_Siada_claude-4-sonnet/trajs/sympy__sympy-24909.traj
+
+[0;32m脚本执行完成！[0m
